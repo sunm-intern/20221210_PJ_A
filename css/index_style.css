@@ -13,7 +13,7 @@ body {
   line-height: 2;
   font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   /* >>TODO */
-  background-color: #dc143c;
+  background-color: #D9E7fd;
 }
 
 *,
@@ -26,8 +26,13 @@ body {
 /* --------------------------------
  * parts
  * -------------------------------- */
+.heading-catch {
+  margin: 50px 0 5px;
+  font-size: 4.0rem;
+}
+
 .heading {
-  margin: 80px 0 10px;
+  margin: 5px 0 10px;
   font-size: 4.0rem;
 }
 
@@ -259,9 +264,12 @@ body {
   body {
     font-size: 1rem;
   }
-
-  .heading {
+  .heading-catch {
     margin-top: 20px;
+    font-size: 2.5rem;
+  }
+  .heading {
+    margin-top: 0px;
     font-size: 2.5rem;
   }
   .header{
